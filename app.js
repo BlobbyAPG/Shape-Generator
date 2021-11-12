@@ -7,6 +7,7 @@ button.onclick=()=>
     const circle=document.getElementById("circle");
     const square=document.getElementById("square");
     const rectangle=document.getElementById("rectangle");
+    const ellipse=document.getElementById("ellipse");
     const $box=document.getElementById("box");
     let j;
     n=Number(oldValue)+Number(n);
@@ -25,6 +26,10 @@ button.onclick=()=>
         else if (circle.checked)
         {
             shape.classList.add("circle");
+        }
+        else if (ellipse.checked)
+        {
+            shape.classList.add("ellipse");
         }
         else
         {
